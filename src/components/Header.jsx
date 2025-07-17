@@ -1,10 +1,7 @@
-import React, { useState } from "react";
-import { ArrowDownToLine, Menu, X } from "lucide-react";
-import LayoutAnimation from "./shared/LayoutAnimation";
+import { ArrowDownToLine } from "lucide-react";
+import Experience from "./Experience";
 
 const Header = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   return (
     <div className="flex justify-between items-center m-3">
       {/* Logo */}
@@ -14,9 +11,15 @@ const Header = () => {
 
       {/* Desktop Menu */}
       <div className="hidden md:flex items-center gap-x-6 mr-4 font-dm-sans">
-        <p className="cursor-pointer">Experience</p>
-        <p className="cursor-pointer">Projects</p>
-        <p className="cursor-pointer">Contact</p>
+        <a href="#experience" className="cursor-pointer">
+          Experience
+        </a>
+        <a href="#projects" className="cursor-pointer">
+          Projects
+        </a>
+        <a href="#contact" className="cursor-pointer">
+          Contact
+        </a>
       </div>
 
       {/* Resume Button */}

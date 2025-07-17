@@ -5,7 +5,7 @@ import { Link as LinkIcon } from "lucide-react";
 
 const Projects = () => {
   return (
-    <div className="px-6 py-4">
+    <div id="projects" className="px-6 py-4">
       <GradientBorder Title={"Projects"} />
 
       {/* Section header and description */}

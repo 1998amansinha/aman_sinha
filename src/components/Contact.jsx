@@ -5,24 +5,24 @@ import socialLinks from "../constants/socialLinks";
 
 const Contact = () => {
   return (
-    <div className="px-4 sm:px-6 py-8 sm:py-10">
+    <div id="contact" className="px-4 sm:px-6 py-8 sm:py-10">
       <GradientBorder Title={"Contact"} />
 
       <div className="my-14 flex flex-col md:flex-row items-start md:items-center justify-between gap-10">
         {/* Heading section */}
-        <div className="text-4xl sm:text-5xl md:text-9xl leading-tight font-bold text-start md:text-left">
+        <div className="text-4xl md:text-5xl lg:text-9xl leading-tight font-bold text-start md:text-left">
           <h1>Let’s Connect</h1>
           <h1>There</h1>
         </div>
 
         {/* Mail and phone section */}
-        <div className="md:w-1/3 w-full text-start">
+        <div className="lg:w-1/3 w-full text-start">
           <h1 className="text-base sm:text-lg text-gray-500 mb-2">
             Leave a message at
           </h1>
           <a
             href="mailto:amansinha1998@outlook.com"
-            className="flex items-center underline text-xl sm:text-2xl md:text-3xl cursor-pointer mb-8 gap-2 flex-wrap"
+            className="flex  items-center underline text-lg md:text-xl lg:text-3xl cursor-pointer mb-8 gap-2 flex-wrap "
           >
             amansinha1998@outlook.com <ExternalLink />
           </a>
@@ -32,7 +32,7 @@ const Contact = () => {
           </h1>
           <a
             href="tel:+918083937600"
-            className="flex items-center underline text-xl sm:text-2xl md:text-3xl cursor-pointer gap-x-3"
+            className="flex items-center underline text-xl  md:text-3xl cursor-pointer gap-x-3"
           >
             <img
               src="https://res.cloudinary.com/do5xzpecm/image/upload/v1752732833/27130_wtmlgk.jpg"

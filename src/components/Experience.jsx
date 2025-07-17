@@ -3,7 +3,7 @@ import GradientBorder from "./shared/ui/GradientBorder";
 
 export default function Experience() {
   return (
-    <div className="px-4 md:px-6">
+    <div id="experience" className="px-4 md:px-6">
       <GradientBorder Title={"Experiece"} />
 
       {/* Header Section */}
