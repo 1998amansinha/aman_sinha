@@ -25,7 +25,7 @@ const Header = () => {
       {/* Resume Button */}
       <div className="md:flex items-center gap-6">
         <a
-          href="https://drive.google.com/file/d/1X-a3LM1iUWj-2fijMGH08yZj271nuaTd/view?usp=drive_link" // path to your resume
+          href="https://drive.google.com/file/d/1d-7u59fORO4H0XEgnGgSQlX9uvcM4FZs/view?usp=drive_link" // path to your resume
           download="Aman_Sinha_Resume.pdf"
           className="button flex gap-x-1 items-center"
         >
